@@ -1,0 +1,220 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #989898;
+
+}
+body{
+    font-family: sans-serif;
+}
+/* header */
+.conteiner{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:1300px;
+    margin: 0 auto;
+}
+
+.header{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.2px;
+    font-weight: 400;
+}
+.header_logo{
+    padding: 33px 133px 33px 122px;
+}
+.header_navbar{
+    text-transform: uppercase;
+    display: flex;
+}
+.header_navbar-items{
+    list-style: none;
+    padding-left: 29px;
+}
+.header_navbar-items:first-child{
+    padding-left: 0;
+}
+.header_btn-login{
+    text-transform: uppercase;
+    padding: 15px 33px;
+    border: 1px solid #bcda5c;
+    border-radius: 30px;
+    padding: 14px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.2px;
+}
+.header_btn-login:hover{
+    background-color: #bcda5c;
+    color: #fff;
+    transition: all .2s ease;
+}
+/* banner */
+.banner_slider{
+    text-align: center;
+}
+.banner_slider-item{
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+}
+.item_text{
+    letter-spacing: 3px;
+    padding-top: 170px;
+    font-size: 30px;
+    font-family: 'open-sans';
+}
+.item_text h2{
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.item_text p{
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #99c50a;
+    color: #fff;
+    border-radius:6px;
+    padding: 30px 40px;
+}
+.banner_btn{
+    background-color: #99c50a;
+    color: #fff;
+    font-size: 19.2px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.banner .slick-slider button{
+    position: absolute;
+    z-index: 2;
+    outline: none;
+    border: none;
+    bottom: 50px;
+    right: 130px;
+    background: none;
+    cursor: pointer;
+}
+.slick-prev{
+    margin-right: 30px;
+}
+.slick-next{
+    margin-left: 30px;
+}
+/* describe */
+.describe{
+    flex-direction: column;
+    text-align: center;
+}
+.describe_logo{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.describe_text{
+    font-family: 'open-sans' sans-serif;
+    margin: 0 auto; 
+    letter-spacing: 2px;
+}
+.describe_text-title{
+    font-size: 31.2px;
+    color: #515151;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+.describe_text-suptitle{
+    color: #838383;
+    font-size: 19.2px; 
+    line-height: 35px;
+    font-weight: lighter;
+    margin-bottom: 155px;
+}
+.describe_text-suptitle p{
+    padding-bottom: 50px;
+}
+/* content */
+.btn_number{
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    background-color: #5f5f5f;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+.content{
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+.content_btn{
+    display: flex;
+    padding-bottom: 46px;
+   
+}
+.btn_info{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32.2px;
+}
+/* find */
+.find{
+    display: flex;
+
+}
+.find_conteiner{
+    display: flex;
+    padding: 48px 0;
+}
+.find_properties{
+    background-color: #e2f8ff; 
+}
+.find_buyers{
+    background-color: #f5f9eb;
+}
+
+.find_pict img{
+    /* padding-left: 141px;
+    padding-right: 41px;
+    padding-top: 45px; */
+    height: 100px;
+    padding: 50px 41px 0 141px;
+}
+.text_title{
+    margin-bottom: 40px;
+    font-size: 23.2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #515151;
+}
+.text_info{
+    color: #515151;
+    font-size: 17.2px;
+    padding-right: 75px;
+    margin-bottom: 27px;
+    line-height: 30px;
+}
+.properties_btn{
+    padding: 19px 25px;
+    background-color: #26a6d1;
+}
+.buyers_btn{
+    padding: 19px 25px;
+    background-color: #add136;
+}
+.content_slider{
+    display:inline-block;
+}
